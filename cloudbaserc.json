@@ -1,0 +1,22 @@
+{
+  "envId": "skaiy-0gekbqtw4dc1df5c",
+  "framework": {
+    "name": "vite",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "buildCommand": "npm run build",
+          "outputPath": "dist",
+          "cloudPath": "/",
+          "ignore": [
+            ".git",
+            ".gitignore",
+            "node_modules",
+            "cloudbaserc.json"
+          ]
+        }
+      }
+    }
+  }
+}

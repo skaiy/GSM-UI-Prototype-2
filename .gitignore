@@ -23,3 +23,44 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# 备份文件
+*.bak
+*.backup
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 敏感信息文件
+config/secrets.json
+config/private.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 媒体文件（大文件）
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# 大型图片文件
+*.psd
+*.ai
+*.eps
+
+# 文档的临时版本
+*_temp.*
+*_临时.*
+*_backup.*
